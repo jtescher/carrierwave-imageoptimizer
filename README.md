@@ -1,6 +1,6 @@
-# CarrierWave::ImageOptimizer
+# CarrierWave ImageOptimizer
 
-This gem allows you to simply optimize CarrierWave images via jpegoptim or optipng.
+This gem allows you to simply optimize CarrierWave images via jpegoptim or optipng using the image_optimizer gem.
 
 Tested against ruby 1.8.7, 1.9.2, 1.9.3, ruby-head, jruby-18mode, jruby-19mode, jruby-head, rbx-18mode, rbx-19mode, and
 ree
@@ -26,7 +26,34 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+To add image optimization to your CarrierWave uploader, first include the module:
+
+```ruby
+class MyUploader < CarrierWave::Uploader::Base
+  include CarrierWave::ImageOptimizer
+  ...
+end
+```
+
+Then apply to all versions via:
+
+```ruby
+class MyUploader < CarrierWave::Uploader::Base
+  ...
+  process :optimize
+end
+```
+
+Or to a single image version via:
+
+```ruby
+class MyUploader < CarrierWave::Uploader::Base
+  ...
+  version :thumbnail do
+    process :optimize
+  end
+end
+```
 
 ## Contributing
 
