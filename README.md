@@ -12,7 +12,19 @@ ree
 
 ## Installation
 
-Add this line to your application's Gemfile:
+##### This gem uses the following utilities for optimizing images:
+
+1. jpegoptim, which can be installed from [freecode.com](http://freecode.com/projects/jpegoptim)
+
+2. OptiPNG, which can be installed from [sourceforge.net](http://optipng.sourceforge.net/)
+
+Or install the utilities via homebrew:
+
+```bash
+$ brew install optipng jpegoptim
+```
+
+Then add this line to your application's Gemfile:
 
     gem 'carrierwave-imageoptimizer'
 
