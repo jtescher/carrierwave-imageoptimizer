@@ -1,3 +1,4 @@
+require "image_optimizer"
 require "carrierwave-imageoptimizer/version"
 
 module CarrierWave
