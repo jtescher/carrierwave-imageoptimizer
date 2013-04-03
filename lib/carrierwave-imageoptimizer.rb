@@ -4,10 +4,7 @@ require "carrierwave-imageoptimizer/version"
 module CarrierWave
   module ImageOptimizer
     def optimize
-      manipulate! do |img|
-        ::ImageOptimizer.new(current_path).optimize
-        img
-      end
+      ::ImageOptimizer.new(current_path).optimize
     end
   end
 end
