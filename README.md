@@ -11,8 +11,8 @@ ree
 (https://gemnasium.com/jtescher/carrierwave-imageoptimizer)
 [![Code Climate](https://codeclimate.com/github/jtescher/carrierwave-imageoptimizer.png)]
 (https://codeclimate.com/github/jtescher/carrierwave-imageoptimizer)
-[![Coverage Status](https://coveralls.io/repos/jtescher/image_optimizer/badge.png)]
-(https://coveralls.io/r/jtescher/image_optimizer)
+[![Coverage Status](https://coveralls.io/repos/jtescher/carrierwave-imageoptimizer/badge.png)]
+(https://coveralls.io/r/jtescher/carrierwave-imageoptimizer)
 
 ## Installation
 
