@@ -7,8 +7,12 @@ ree
 
 [![Build Status](https://secure.travis-ci.org/jtescher/carrierwave-imageoptimizer.png)]
 (http://travis-ci.org/jtescher/carrierwave-imageoptimizer)
-[![Dependency Status](https://gemnasium.com/jtescher/carrierwave-imageoptimizer.png)](https://gemnasium.com/jtescher/carrierwave-imageoptimizer)
-[![Code Climate](https://codeclimate.com/badge.png)](https://codeclimate.com/github/jtescher/carrierwave-imageoptimizer)
+[![Dependency Status](https://gemnasium.com/jtescher/carrierwave-imageoptimizer.png)]
+(https://gemnasium.com/jtescher/carrierwave-imageoptimizer)
+[![Code Climate](https://codeclimate.com/github/jtescher/carrierwave-imageoptimizer.png)]
+(https://codeclimate.com/github/jtescher/carrierwave-imageoptimizer)
+[![Coverage Status](https://coveralls.io/repos/jtescher/image_optimizer/badge.png)]
+(https://coveralls.io/r/jtescher/image_optimizer)
 
 ## Installation
 

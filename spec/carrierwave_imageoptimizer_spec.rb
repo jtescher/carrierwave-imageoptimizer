@@ -5,7 +5,6 @@ describe CarrierWave::ImageOptimizer do
     before do
       @uploader = Class.new do
         include CarrierWave::ImageOptimizer
-        def manipulate!; yield end
         def current_path; '/tmp/path/to/image.jpg' end
       end
     end
