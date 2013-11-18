@@ -13,6 +13,7 @@ ree
 (https://codeclimate.com/github/jtescher/carrierwave-imageoptimizer)
 [![Coverage Status](https://coveralls.io/repos/jtescher/carrierwave-imageoptimizer/badge.png)]
 (https://coveralls.io/r/jtescher/carrierwave-imageoptimizer)
+[![Gem Version](https://badge.fury.io/rb/carrierwave-imageoptimizer.png)](http://badge.fury.io/rb/carrierwave-imageoptimizer)
 
 ## Installation
 
