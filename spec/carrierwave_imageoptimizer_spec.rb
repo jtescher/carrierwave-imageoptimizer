@@ -11,9 +11,16 @@ describe CarrierWave::ImageOptimizer do
 
     it 'delegates to a new instance of ImageOptimizer with the current path to the file' do
       image_optimizer = double(::ImageOptimizer)
-      ::ImageOptimizer.should_receive(:new).with('/tmp/path/to/image.jpg').and_return(image_optimizer)
-      image_optimizer.should_receive(:optimize)
+      expect(::ImageOptimizer).to receive(:new).with('/tmp/path/to/image.jpg', {}).and_return(image_optimizer)
+      expect(image_optimizer).to receive(:optimize)
       @uploader.new.optimize
+    end
+
+    it 'accepts an optional quality param to target a specific lossy JPG quality level ' do
+      image_optimizer = double(::ImageOptimizer)
+      expect(::ImageOptimizer).to receive(:new).with('/tmp/path/to/image.jpg', quality: 99).and_return(image_optimizer)
+      expect(image_optimizer).to receive(:optimize)
+      @uploader.new.optimize(quality: 99)
     end
   end
 end

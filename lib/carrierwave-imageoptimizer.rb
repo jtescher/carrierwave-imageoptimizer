@@ -3,8 +3,8 @@ require "carrierwave-imageoptimizer/version"
 
 module CarrierWave
   module ImageOptimizer
-    def optimize
-      ::ImageOptimizer.new(current_path).optimize
+    def optimize(options = {})
+      ::ImageOptimizer.new(current_path, options).optimize
     end
   end
 end

@@ -71,6 +71,20 @@ class MyUploader < CarrierWave::Uploader::Base
 end
 ```
 
+##### Lossy JPEG optimization
+
+Pass an optional `quality` parameter to target a specific lossy JPG quality level (0-100), default is lossless
+optimization. PNGs will ignore the quality setting.
+
+```ruby
+class MyUploader < CarrierWave::Uploader::Base
+  ...
+  version :thumbnail do
+    process :optimize, quality: 50
+  end
+end
+```
+
 ## Contributing
 
 1. Fork it
