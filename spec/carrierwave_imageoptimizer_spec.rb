@@ -10,7 +10,7 @@ describe CarrierWave::ImageOptimizer do
     end
 
     it 'delegates to a new instance of ImageOptimizer with the current path to the file' do
-      image_optimizer = stub(::ImageOptimizer)
+      image_optimizer = double(::ImageOptimizer)
       ::ImageOptimizer.should_receive(:new).with('/tmp/path/to/image.jpg').and_return(image_optimizer)
       image_optimizer.should_receive(:optimize)
       @uploader.new.optimize

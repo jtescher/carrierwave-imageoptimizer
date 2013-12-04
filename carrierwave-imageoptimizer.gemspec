@@ -21,7 +21,7 @@ Gem::Specification.new do |gem|
   gem.cert_chain    = ['gem-public_cert.pem']
 
   gem.add_dependency "carrierwave", ["~> 0.8"]
-  gem.add_dependency "image_optimizer", ["~> 1.1"]
+  gem.add_dependency "image_optimizer", ["~> 1.2"]
 
   gem.add_development_dependency "rspec",     "~> 2.14.1"
   gem.add_development_dependency "rake",      "~> 10.1.0"
