@@ -16,11 +16,18 @@ describe CarrierWave::ImageOptimizer do
       @uploader.new.optimize
     end
 
-    it 'accepts an optional quality param to target a specific lossy JPG quality level ' do
+    it 'accepts an optional quality param to target a specific lossy JPG quality level' do
       image_optimizer = double(::ImageOptimizer)
       expect(::ImageOptimizer).to receive(:new).with('/tmp/path/to/image.jpg', quality: 99).and_return(image_optimizer)
       expect(image_optimizer).to receive(:optimize)
       @uploader.new.optimize(quality: 99)
+    end
+
+    it 'accepts an optional quiet param to run in quiet mode' do
+      image_optimizer = double(::ImageOptimizer)
+      expect(::ImageOptimizer).to receive(:new).with('/tmp/path/to/image.jpg', quiet: true).and_return(image_optimizer)
+      expect(image_optimizer).to receive(:optimize)
+      @uploader.new.optimize(quiet: true)
     end
   end
 end

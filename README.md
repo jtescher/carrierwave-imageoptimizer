@@ -85,6 +85,19 @@ class MyUploader < CarrierWave::Uploader::Base
 end
 ```
 
+##### Quiet Mode
+
+Pass an optional `quiet` parameter to compress images without logging progress.
+
+```ruby
+class MyUploader < CarrierWave::Uploader::Base
+  ...
+  version :thumbnail do
+    process :optimize, quiet: true
+  end
+end
+```
+
 ## Contributing
 
 1. Fork it
