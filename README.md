@@ -80,7 +80,7 @@ optimization. PNGs will ignore the quality setting.
 class MyUploader < CarrierWave::Uploader::Base
   ...
   version :thumbnail do
-    process :optimize, quality: 50
+    process optimize: [{ quality: 50 }]
   end
 end
 ```
@@ -93,7 +93,7 @@ Pass an optional `quiet` parameter to compress images without logging progress.
 class MyUploader < CarrierWave::Uploader::Base
   ...
   version :thumbnail do
-    process :optimize, quiet: true
+    process optimize: [{ quiet: true }]
   end
 end
 ```
