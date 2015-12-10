@@ -18,7 +18,7 @@ Tested against 1.9.3, 2.0.0, 2.1.0, ruby-head, jruby-19mode, jruby-head, rbx-2.1
 
 ##### This gem uses the following utilities for optimizing images:
 
-1. jpegoptim, which can be installed from [freecode.com](http://freecode.com/projects/jpegoptim)
+1. jpegoptim, which can be installed from the official [jpegoptim](https://github.com/tjko/jpegoptim) repository
 
 2. OptiPNG, which can be installed from [sourceforge.net](http://optipng.sourceforge.net/)
 
