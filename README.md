@@ -4,15 +4,15 @@ This gem allows you to simply optimize CarrierWave images via jpegoptim or optip
 
 Tested against 1.9.3, 2.0.0, 2.1.0, ruby-head, jruby-19mode, jruby-head, rbx-2.1.1, rbx-2.2.0, and rbx-2.2.1
 
-[![Build Status](https://secure.travis-ci.org/jtescher/carrierwave-imageoptimizer.png)]
+[![Build Status](https://secure.travis-ci.org/jtescher/carrierwave-imageoptimizer.svg)]
 (http://travis-ci.org/jtescher/carrierwave-imageoptimizer)
-[![Dependency Status](https://gemnasium.com/jtescher/carrierwave-imageoptimizer.png)]
+[![Dependency Status](https://gemnasium.com/jtescher/carrierwave-imageoptimizer.svg)]
 (https://gemnasium.com/jtescher/carrierwave-imageoptimizer)
-[![Code Climate](https://codeclimate.com/github/jtescher/carrierwave-imageoptimizer.png)]
+[![Code Climate](https://codeclimate.com/github/jtescher/carrierwave-imageoptimizer.svg)]
 (https://codeclimate.com/github/jtescher/carrierwave-imageoptimizer)
-[![Coverage Status](https://coveralls.io/repos/jtescher/carrierwave-imageoptimizer/badge.png)]
+[![Coverage Status](https://coveralls.io/repos/jtescher/carrierwave-imageoptimizer/badge.svg)]
 (https://coveralls.io/r/jtescher/carrierwave-imageoptimizer)
-[![Gem Version](https://badge.fury.io/rb/carrierwave-imageoptimizer.png)](http://badge.fury.io/rb/carrierwave-imageoptimizer)
+[![Gem Version](https://badge.fury.io/rb/carrierwave-imageoptimizer.svg)](http://badge.fury.io/rb/carrierwave-imageoptimizer)
 
 ## Installation
 
