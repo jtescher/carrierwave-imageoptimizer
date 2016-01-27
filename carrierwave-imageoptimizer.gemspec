@@ -24,7 +24,7 @@ Gem::Specification.new do |gem|
   gem.add_dependency "image_optimizer", ["~> 1.2"]
 
   gem.add_development_dependency "rspec",     "~> 2.14.1"
-  gem.add_development_dependency "rake",      "~> 10.1.0"
-  gem.add_development_dependency "simplecov", "~> 0.8.1"
-  gem.add_development_dependency "coveralls", "~> 0.7.0"
+  gem.add_development_dependency "rake",      "~> 10.5.0"
+  gem.add_development_dependency "simplecov", "~> 0.11.1"
+  gem.add_development_dependency "coveralls", "~> 0.8.10"
 end
