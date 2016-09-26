@@ -2,7 +2,7 @@
 
 This gem allows you to simply optimize CarrierWave images via jpegoptim or optipng using the image_optimizer gem.
 
-Tested against 2.0.0, 2.1.8, 2.2.4, 2.3.0, and jruby-19mode, jruby-head
+Tested against 2.2.x, 2.3.x, and ruby-head
 
 [![Build Status](https://secure.travis-ci.org/jtescher/carrierwave-imageoptimizer.svg)]
 (http://travis-ci.org/jtescher/carrierwave-imageoptimizer)
