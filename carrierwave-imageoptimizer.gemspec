@@ -18,13 +18,13 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
   gem.license       = 'MIT'
   gem.signing_key   = File.expand_path('~/.ssh/gem-private_key.pem') if $0 =~ /gem\z/
-  gem.cert_chain    = ['gem-public_cert.pem']
+  gem.cert_chain  = ['certs/jtescher.pem']
 
   gem.add_dependency "carrierwave", ["~> 0.8"]
-  gem.add_dependency "image_optimizer", ["~> 1.2"]
+  gem.add_dependency "image_optimizer", ["~> 1.6"]
 
   gem.add_development_dependency "rspec",     "~> 2.14.1"
-  gem.add_development_dependency "rake",      "~> 10.5.0"
-  gem.add_development_dependency "simplecov", "~> 0.11.1"
-  gem.add_development_dependency "coveralls", "~> 0.8.10"
+  gem.add_development_dependency "rake",      "~> 11.2.2"
+  gem.add_development_dependency "simplecov", "~> 0.12.0"
+  gem.add_development_dependency "coveralls", "~> 0.8.15"
 end
