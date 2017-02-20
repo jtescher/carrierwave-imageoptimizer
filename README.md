@@ -40,6 +40,18 @@ Or install it yourself as:
 
     $ gem install carrierwave-imageoptimizer
 
+### Installation on Heroku
+If you are using Heroku for your production you must use [heroku buildpacks](https://devcenter.heroku.com/articles/using-multiple-buildpacks-for-an-app) in order to install `optipng` and `jpegoptim`. [jayzes](https://github.com/jayzes?tab=repositories) has some plug and play buildpacks to get you going in no time.
+
+__On an existing Heroku app and using the Heroku CLI__
+
+1. Add this gem to your gemfile.
+2. Modify your code following the instrunctions on the [usage](#usage) section.
+3. `heroku buildpacks:add --index 1 https://github.com/jayzes/heroku-buildpack-optipng`
+4. `heroku buildpacks:add --index 1 https://github.com/jayzes/heroku-buildpack-jpegoptim`
+5. `git push heroku` 
+  * _It is important to do a push to heroku __after__ the buildpacks have been declared._
+
 ## Usage
 
 To add image optimization to your CarrierWave uploader, first include the module:
