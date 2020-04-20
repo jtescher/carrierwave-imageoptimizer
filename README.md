@@ -5,7 +5,6 @@ This gem allows you to simply optimize CarrierWave images via jpegoptim or optip
 Tested against 2.2.x, 2.3.x, and ruby-head
 
 [![Build Status](https://secure.travis-ci.org/jtescher/carrierwave-imageoptimizer.svg)](http://travis-ci.org/jtescher/carrierwave-imageoptimizer)
-[![Dependency Status](https://gemnasium.com/jtescher/carrierwave-imageoptimizer.svg)](https://gemnasium.com/jtescher/carrierwave-imageoptimizer)
 [![Code Climate](https://codeclimate.com/github/jtescher/carrierwave-imageoptimizer.svg)](https://codeclimate.com/github/jtescher/carrierwave-imageoptimizer)
 [![Coverage Status](https://coveralls.io/repos/jtescher/carrierwave-imageoptimizer/badge.svg)](https://coveralls.io/r/jtescher/carrierwave-imageoptimizer)
 [![Gem Version](https://badge.fury.io/rb/carrierwave-imageoptimizer.svg)](http://badge.fury.io/rb/carrierwave-imageoptimizer)
