@@ -23,8 +23,8 @@ Gem::Specification.new do |gem|
   gem.add_dependency "carrierwave", [">= 0.8", "< 2.2"]
   gem.add_dependency "image_optimizer", ["~> 1.6"]
 
-  gem.add_development_dependency "rspec",     "~> 2.14.1"
-  gem.add_development_dependency "rake",      "~> 11.2.2"
-  gem.add_development_dependency "simplecov", "~> 0.12.0"
-  gem.add_development_dependency "coveralls", "~> 0.8.15"
+  gem.add_development_dependency "rspec",     "~> 3.9.0"
+  gem.add_development_dependency "rake",      "~> 13.0.1"
+  gem.add_development_dependency "simplecov", "~> 0.16.1"
+  gem.add_development_dependency "coveralls", "~> 0.8.23"
 end
